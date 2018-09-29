@@ -1,7 +1,7 @@
 # ImageCropper
 An iOS Swift Image Cropping tool.
 
-[Imgur](https://i.imgur.com/DFi9uK5.gifv)
+![Image Cropper iOS Swift Preview](https://media.giphy.com/media/euCvlD8Vi5SD5ZhylX/giphy.gif "Image Cropper iOS Swift Preview")
 
 ### Features
 - Panning (default and zoomed scales

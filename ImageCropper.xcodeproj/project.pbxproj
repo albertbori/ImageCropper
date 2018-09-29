@@ -12,6 +12,8 @@
 		7013A936215FDBE80041DCD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7013A934215FDBE80041DCD8 /* Main.storyboard */; };
 		7013A938215FDBEA0041DCD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7013A937215FDBEA0041DCD8 /* Assets.xcassets */; };
 		7013A93B215FDBEA0041DCD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7013A939215FDBEA0041DCD8 /* LaunchScreen.storyboard */; };
+		7013A946215FDC380041DCD8 /* ImageCropperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7013A945215FDC380041DCD8 /* ImageCropperViewController.swift */; };
+		70606DE1215FE78A0000AE4B /* ImageCropperViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7013A942215FDC040041DCD8 /* ImageCropperViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		7013A937215FDBEA0041DCD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7013A93A215FDBEA0041DCD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7013A93C215FDBEA0041DCD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7013A942215FDC040041DCD8 /* ImageCropperViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCropperViewController.xib; sourceTree = "<group>"; };
+		7013A945215FDC380041DCD8 /* ImageCropperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCropperViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				7013A930215FDBE80041DCD8 /* AppDelegate.swift */,
+				7013A945215FDC380041DCD8 /* ImageCropperViewController.swift */,
+				7013A942215FDC040041DCD8 /* ImageCropperViewController.xib */,
 				7013A932215FDBE80041DCD8 /* ViewController.swift */,
 				7013A934215FDBE80041DCD8 /* Main.storyboard */,
 				7013A937215FDBEA0041DCD8 /* Assets.xcassets */,
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70606DE1215FE78A0000AE4B /* ImageCropperViewController.xib in Resources */,
 				7013A93B215FDBEA0041DCD8 /* LaunchScreen.storyboard in Resources */,
 				7013A938215FDBEA0041DCD8 /* Assets.xcassets in Resources */,
 				7013A936215FDBE80041DCD8 /* Main.storyboard in Resources */,
@@ -137,6 +144,7 @@
 			files = (
 				7013A933215FDBE80041DCD8 /* ViewController.swift in Sources */,
 				7013A931215FDBE80041DCD8 /* AppDelegate.swift in Sources */,
+				7013A946215FDC380041DCD8 /* ImageCropperViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

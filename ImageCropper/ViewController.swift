@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         let imageCropperViewController = ImageCropperViewController()
         imageCropperViewController.delegate = self
         imageCropperViewController.imageToCrop = image
-        present(imageCropperViewController, animated: false, completion: nil)
+        present(imageCropperViewController, animated: true, completion: nil)
     }
 }
 
@@ -40,6 +40,6 @@ extension ViewController: ImageCropperViewControllerDelegate {
     
     func handleCroppedImage(imageCropperViewController: ImageCropperViewController, image: UIImage) {
         croppedImage.image = image
-        imageCropperViewController.dismiss(animated: false, completion: nil)
+        imageCropperViewController.dismiss(animated: true, completion: nil)
     }
 }

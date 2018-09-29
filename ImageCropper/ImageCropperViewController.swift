@@ -35,6 +35,8 @@ class ImageCropperViewController: UIViewController {
         scrollView.delegate = self
         scrollView.minimumZoomScale = 1.0
         scrollView.maximumZoomScale = 10
+        
+        imageView.image = nil
     }
     
     override func viewWillAppear(_ animated: Bool) {

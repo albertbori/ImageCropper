@@ -25,6 +25,7 @@ class ImageCropperViewController: UIViewController {
     @IBOutlet weak var imageWidthConstraint: NSLayoutConstraint!
     
     override var prefersStatusBarHidden: Bool { return true }
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask { return UIInterfaceOrientationMask.portrait }
     weak var delegate: ImageCropperViewControllerDelegate?
     var imageToCrop: UIImage!
     
